@@ -1,0 +1,42 @@
+/*
+ * FFTX Copyright (c) 2019, The Regents of the University of California, through 
+ * Lawrence Berkeley National Laboratory (subject to receipt of any required 
+ * approvals from the U.S. Dept. of Energy), Carnegie Mellon University and 
+ * SpiralGen, Inc.  All rights reserved.
+ * 
+ * If you have questions about your rights to use or distribute this software, 
+ * please contact Berkeley Lab's Intellectual Property Office at IPO@lbl.gov.
+ * 
+ * NOTICE.  This Software was developed under funding from the U.S. Department of
+ * Energy and the U.S. Government  consequently  retains certain rights. As such, 
+ * the U.S. Government has been granted for itself and others acting on its 
+ * behalf a paid-up, nonexclusive, irrevocable, worldwide license in the Software 
+ * to reproduce, distribute copies to the public, prepare derivative works, and 
+ * perform publicly and display publicly, and to permit others to do so.
+ */
+
+#ifndef FFTX_BUILD_INFO_H
+#define FFTX_BUILD_INFO_H
+
+
+#define FFTX_VERSION_MAJOR   @PROJECT_VERSION_MAJOR@
+#define FFTX_VERSION_MINOR   @PROJECT_VERSION_MINOR@
+#define FFTX_VERSION_PATCH   @PROJECT_VERSION_PATCH@
+#define FFTX_VERSION_TWEAK   @PROJECT_VERSION_TWEAK@
+#define FFTX_VERSION_STRING "@PROJECT_VERSION@"
+
+#define FFTX_GIT_COMMIT_HASH "@FFTX_GIT_HASH@"
+
+#define FFTX_BUILD_TYPE "@CMAKE_BUILD_TYPE@"
+#define FFTX_C_FLAGS    "@CMAKE_C_FLAGS@"
+#define FFTX_CXX_FLAGS  "@CMAKE_CXX_FLAGS@"
+
+#define FFTX_CMAKE_HOST_SYSTEM_NAME    "@CMAKE_HOST_SYSTEM_NAME@"
+#define FFTX_CMAKE_HOST_SYSTEM_VERSION "@CMAKE_HOST_SYSTEM_VERSION@"
+
+#define FFTX_CMAKE_SYSTEM_NAME      "@CMAKE_SYSTEM_NAME@"
+#define FFTX_CMAKE_SYSTEM_VERSION   "@CMAKE_SYSTEM_VERSION@"
+#define FFTX_CMAKE_SYSTEM_PROCESSOR "@CMAKE_SYSTEM_PROCESSOR@"
+
+
+#endif // FFTX_BUILD_INFO_H
